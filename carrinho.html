@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BabyB</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
+    <!-- estilo CSS -->
+    <link rel="stylesheet" href="./css/styles.css" />
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <!-- Nav -->
+            <nav class="header">
+                <div class="general-header container">
+                    <div class="logo">
+                        <h1>BabyB</h1>
+                    </div>
+
+                    <div class="main-header">
+                        <div class="header-top">
+                            <div class="logo">
+                                <h1>BabyB</h1>
+                            </div>
+                            <div class="close">
+                                <i class="bx bx-x"></i>
+                            </div>
+                        </div>
+
+                        <ul class="header-list">
+                            <li class="header-item">
+                                <input type="text" name="pesquisar" id="pesquisar" placeholder="Pesquisar..." required>
+                            </li>
+                            <li class="header-item">
+                                <a href="index.html" class="header-link">Início</a>
+                            </li>
+                            <li class="header-item">
+                                <a href="produto.html" class="header-link">Produtos</a>
+                            </li>
+                            <li class="header-item">
+                                <a href="#sobre" class="header-link">Sobre</a>
+                            </li>
+                            <li class="header-item">
+                                <a href="#contato" class="header-link">Contatos</a>
+                            </li>
+                            <li class="header-item">
+                                <a href="carrinho.html" class="header-link icon"><i class='bx bx-cart'></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <a href="carrinho.html" class="car-icon">
+                        <i class='bx bx-cart'></i>
+                    </a>
+
+                    <div class="more">
+                        <i class="bx bx-menu"></i>
+                    </div>
+                </div>
+            </nav>
+    </header>
+
+    <div class="title title-car">
+        <h1>Seu carrinho</h1>
+    </div>
+
+    <!-- Cart Items -->
+    <div class="container-md table">
+        <table>
+            <tr>
+                <th>Produtos</th>
+                <th>Quantid.</th>
+                <th>Subtotal</th>
+            </tr>
+
+            <tr>
+                <td>
+                    <div class="general-car">
+                        <img src="./img/conjunto 3.jpg" alt="">
+                        <div>
+                            <p>Blusa e short Unissex</p>
+                            <a href="#">Remover</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input class="input-number" type="number" value="1" min="1"></td>
+                <td>R$45,00</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="general-car">
+                        <img src="./img/vestido.jpg" alt="">
+                        <div>
+                            <p>Vestido Feminino</p>
+                            <a href="#">Remover</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input class="input-number" type="number" value="1" min="1"></td>
+                <td>R$70,00</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="general-car">
+                        <img src="./img/conjunto 1.jpg" alt="">
+                        <div>
+                            <p>Blusa e short Masculinos</p>
+                            <a href="#">Remover</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input class="input-number" type="number" value="1" min="1"></td>
+                <td>R$45,00</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="general-car">
+                        <img src="./img/conjunto 2.jpg" alt="">
+                        <div>
+                            <p>Blusa e short Unissex</p>
+                            <a href="#">Remover</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input class="input-number" type="number" value="1" min="1"></td>
+                <td>R$45,00</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="general-car">
+                        <img src="./img/conjunto 3.jpg" alt="">
+                        <div>
+                            <p>Blusa e short Unissex</p>
+                            <a href="#">Remover</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input class="input-number" type="number" value="1" min="1"></td>
+                <td>R$45,00</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="general-car">
+                        <img src="./img/vestido.jpg" alt="">
+                        <div>
+                            <p>Vestido Feminino</p>
+                            <a href="#">Remover</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input class="input-number" type="number" value="1" min="1"></td>
+                <td>R$70,00</td>
+            </tr>
+        </table>
+    </div>
+    <div class="container-md total">
+        <div class="final-price">
+            <table>
+                <tr>
+                    <td class="blue table-space">Subtotal</td>
+                    <td class="table-space">R$335,00</td>
+                </tr>
+                <tr>
+                    <td class="blue table-space">Frete</td>
+                    <td class="table-space">R$30,00</td>
+                </tr>
+                <tr>
+                    <td class="blue table-space">Total</td>
+                    <td class="table-space bold">R$365,00</td>
+                </tr>
+            </table>
+            <div class="present">
+                <input type="checkbox" name="present" id="present">
+                <label for="present">Este pedido é um presente.</label>
+            </div>
+            <a href="#" class="close-order">Fechar pedido</a>
+        </div>  
+    </div>
+
+    <!-- Footer -->
+    <footer class="section-footer">
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-column">
+                    <h3>INSTITUCIONAL</h3>
+                    <a href="#">Atendimento</a>
+                    <a href="#">Quem somos</a>
+                    <a href="#">Compra segura</a>
+                    <a href="#">Política de privacidade</a>
+                </div>
+                <div class="footer-column">
+                    <h3>PÁGINAS ESPECIAIS</h3>
+                    <a href="#">Meus pedidos</a>
+                    <a href="#">Trocas e devoluções</a>
+                    <a href="#">Entregas</a>
+                    <a href="#">Pagamentos</a>
+                </div>
+                <div class="footer-column">
+                    <h3>EXTRAS</h3>
+                    <a href="#">Frete</a>
+                    <a href="#">Parcelamento</a>
+                    <a href="#">Contate-nos</a>
+                    <a href="#">Localização</a>
+                </div>
+                <div class="footer-column">
+                    <h3>CONTATOS</h3>
+                    <div>
+                        Chat online
+                    </div>
+                    <div>
+                        company@gmail.com
+                    </div>
+                    <div>
+                        (00) 0000-0000
+                    </div>
+                    <div>
+                        Nossa comunidade
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- glider -->
+    <script src="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.js"></script>
+    <!-- Script -->
+    <script src="./js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BabyB</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
+    <!-- estilo CSS -->
+    <link rel="stylesheet" href="./css/styles.css" />
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+            <nav class="header">
+                <div class="general-header container">
+                    <div class="logo">
+                        <h1>BabyB</h1>
+                    </div>
+
+                    <div class="main-header">
+                        <div class="header-top">
+                            <div class="logo">
+                                <h1>BabyB</h1>
+                            </div>
+                            <div class="close">
+                                <i class="bx bx-x"></i>
+                            </div>
+                        </div>
+
+                        <ul class="header-list">
+                            <li class="header-item">
+                                <input type="text" name="pesquisar" id="pesquisar" placeholder="Pesquisar..." required>
+                            </li>
+                            <li class="header-item">
+                                <a href="index.html" class="header-link">Início</a>
+                            </li>
+                            <li class="header-item">
+                                <a href="produto.html" class="header-link">Produtos</a>
+                            </li>
+                            <li class="header-item">
+                                <a href="#sobre" class="header-link">Sobre</a>
+                            </li>
+                            <li class="header-item">
+                                <a href="#contato" class="header-link">Contatos</a>
+                            </li>
+                            <li class="header-item">
+                                <a href="carrinho.html" class="header-link icon"><i class='bx bx-cart'></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <a href="carrinho.html" class="car-icon">
+                        <i class='bx bx-cart'></i>
+                    </a>
+
+                    <div class="more">
+                        <i class="bx bx-menu"></i>
+                    </div>
+                </div>
+            </nav>
+    </header>
+
+    <!--BANNER-->
+    <article class="c-carousel c-carousel-simple">
+        <div class="c-carousel-slides js-carousel-simple">
+            <article class="c-carousel-slide">
+                <div class="banner">
+                    <img src="./img/banner 1.png" alt="" class="img-banner" />
+
+                    <div class="text-banner">
+                        <h2>Belas roupas</h2>
+                        <h1>
+                            <span>A maior loja infantil</span>
+                            <span>brasileira!</span>
+                        </h1>
+                        <a class="button" href="#">Compre agora</a>
+                    </div>
+                </div>
+            </article>
+            <article class="c-carousel-slide">
+                <div class="banner two">
+                    <img src="./img/banner 2.png" alt="" class="img-banner" />
+
+                    <div class="text-banner news">
+                        <h2>Venha conferir</h2>
+                        <h1>
+                            <span>Há novidades toda</span>
+                            <span>semana!</span>
+                        </h1>
+                        <a class="button see" href="#">Ver agora</a>
+                    </div>
+                </div>
+            </article>
+            <article class="c-carousel-slide">
+                <div class="banner three">
+                    <img src="./img/banner 3.png" alt="" class="img-banner" />
+
+                    <div class="text-banner promotions">
+                        <h2>Promoções</h2>
+                        <h1>
+                            <span>15% de desconto</span>
+                            <span>em compras</span>
+                            <span>acima de R$200,00</span>
+                        </h1>
+                    </div>
+                </div>
+            </article>
+        </div>
+        <div class="js-carousel-simple-dots" role="tablist"></div>
+    </article>
+
+    <!-- Main -->
+    <main>
+        <section class="sections">
+            <div class="box-sections container">
+                <div class="box">
+                    <div class="line">
+                        <div class="text-box">
+                            <h2>
+                                Roupas <br />
+                                para <br/>
+                                meninas
+                            </h2>
+                        </div>
+                    </div>
+                    <img src="./img/meninas.png" alt="">
+                </div>
+
+                <div class="box">
+                    <div class="line">
+                        <div class="text-box">
+                            <h2>
+                                Roupas <br />
+                                unissex
+                            </h2>
+                        </div>
+                    </div>
+                    <img src="./img/unissex.png" alt="">
+                </div>
+
+                <div class="box">
+                    <div class="line">
+                        <div class="text-box">
+                            <h2>
+                                Roupas <br />
+                                para <br/>
+                                meninos
+                            </h2>
+                        </div>
+                    </div>
+                    <img src="./img/meninos.png" alt="">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- destaque -->
+    <section class="featured-products">
+        <div class="title">
+            <h1>Produtos em destaque</h1>
+        </div>
+
+        <div class="product-sections container">
+            <div class="product">
+                <div class="product-header">
+                    <img src="./img/conjunto 3.jpg" alt="">
+                    <ul class="icons">
+                        <span><i class="bx bx-heart"></i></span>
+                        <span><i class="bx bx-shopping-bag"></i></span>
+                        <span><i class="bx bx-search"></i></span>
+                    </ul>
+                </div>
+                <div class="product-footer">
+                    <a href="#">
+                        <h3>Blusa e short Unissex</h3>
+                    </a>
+                    <div class="stars-product">
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                    </div>
+                        <h4 class="price">R$45,00</h4>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-header">
+                    <img src="./img/vestido.jpg" alt="">
+                    <ul class="icons">
+                        <span><i class="bx bx-heart"></i></span>
+                        <span><i class="bx bx-shopping-bag"></i></span>
+                        <span><i class="bx bx-search"></i></span>
+                    </ul>
+                </div>
+                <div class="product-footer">
+                    <a href="#">
+                        <h3>Vestido Feminino</h3>
+                    </a>
+                    <div class="stars-product">
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bx-star"></i>
+                    </div>
+                        <h4 class="price">R$70,00</h4>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-header">
+                    <img src="./img/conjunto 1.jpg" alt="">
+                    <ul class="icons">
+                        <span><i class="bx bx-heart"></i></span>
+                        <span><i class="bx bx-shopping-bag"></i></span>
+                        <span><i class="bx bx-search"></i></span>
+                    </ul>
+                </div>
+                <div class="product-footer">
+                    <a href="#">
+                        <h3>Blusa e short Masculinos</h3>
+                    </a>
+                    <div class="stars-product">
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                    </div>
+                        <h4 class="price">R$45,00</h4>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-header">
+                    <img src="./img/conjunto 2.jpg" alt="">
+                    <ul class="icons">
+                        <span><i class="bx bx-heart"></i></span>
+                        <span><i class="bx bx-shopping-bag"></i></span>
+                        <span><i class="bx bx-search"></i></span>
+                    </ul>
+                </div>
+                <div class="product-footer">
+                    <a href="#">
+                        <h3>Blusa e short Unissex</h3>
+                    </a>
+                    <div class="stars-product">
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                    </div>
+                        <h4 class="price">R$60,00</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--produtos mais vendidos-->
+    <section class="featured-products">
+        <div class="title">
+            <h1>Produtos mais vendidos</h1>
+        </div>
+
+        <div class="product-sections container">
+            <div class="product">
+                <div class="product-header">
+                    <img src="./img/conjunto 3.jpg" alt="">
+                    <ul class="icons">
+                        <span><i class="bx bx-heart"></i></span>
+                        <span><i class="bx bx-shopping-bag"></i></span>
+                        <span><i class="bx bx-search"></i></span>
+                    </ul>
+                </div>
+                <div class="product-footer">
+                    <a href="#">
+                        <h3>Blusa e short Unissex</h3>
+                    </a>
+                    <div class="stars-product">
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                    </div>
+                        <h4 class="price">R$45,00</h4>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-header">
+                    <img src="./img/vestido.jpg" alt="">
+                    <ul class="icons">
+                        <span><i class="bx bx-heart"></i></span>
+                        <span><i class="bx bx-shopping-bag"></i></span>
+                        <span><i class="bx bx-search"></i></span>
+                    </ul>
+                </div>
+                <div class="product-footer">
+                    <a href="#">
+                        <h3>Vestido Feminino</h3>
+                    </a>
+                    <div class="stars-product">
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bx-star"></i>
+                    </div>
+                        <h4 class="price">R$70,00</h4>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-header">
+                    <img src="./img/conjunto 1.jpg" alt="">
+                    <ul class="icons">
+                        <span><i class="bx bx-heart"></i></span>
+                        <span><i class="bx bx-shopping-bag"></i></span>
+                        <span><i class="bx bx-search"></i></span>
+                    </ul>
+                </div>
+                <div class="product-footer">
+                    <a href="#">
+                        <h3>Blusa e short Masculinos</h3>
+                    </a>
+                    <div class="stars-product">
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                    </div>
+                        <h4 class="price">R$45,00</h4>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-header">
+                    <img src="./img/conjunto 2.jpg" alt="">
+                    <ul class="icons">
+                        <span><i class="bx bx-heart"></i></span>
+                        <span><i class="bx bx-shopping-bag"></i></span>
+                        <span><i class="bx bx-search"></i></span>
+                    </ul>
+                </div>
+                <div class="product-footer">
+                    <a href="#">
+                        <h3>Blusa e short Unissex</h3>
+                    </a>
+                    <div class="stars-product">
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                    </div>
+                        <h4 class="price">R$60,00</h4>
+                </div>
+            </div>
+        </div>
+    </section> 
+
+    <!-- Avaliações -->
+    <section class="section">
+        <div class="title">
+            <h1>Avaliações</h1>
+        </div>
+        <div class="rating-center container">
+            <div class="rating">
+                <div class="profile">
+                    <div class="img-profile">
+                        <img src="./img/perfil1.jpg" alt="" />
+                    </div>
+                    <div class="personal">
+                        <h4>Paulo Silva</h4>
+                        <div class="stars">
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bx-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>
+                    "As roupas são de uma ótima qualidade e com um tecido muito confortável, meu filho adorou."
+                </p>
+            </div>
+            <div class="rating">
+                <div class="profile">
+                    <div class="img-profile">
+                        <img src="./img/perfil 2.jpg" alt="" />
+                    </div>
+                    <div class="personal">
+                        <h4>Thiago Freire</h4>
+                        <div class="stars">
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>
+                    "A entrega foi feita com muito cuidado e as peças de roupas são extremamente maravilhosas."
+                </p>
+            </div>
+            <div class="rating">
+                <div class="profile">
+                    <div class="img-profile">
+                        <img src="./img/perfil3.jpg" alt="" />
+                    </div>
+                    <div class="personal">
+                        <h4>Dafine Mesquita</h4>
+                        <div class="stars">
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>
+                    "Os produtos não demoraram para chegar e vieram embalados para presente assim como eu solicitei."
+                </p>
+            </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="section-footer">
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-column">
+                    <h3>INSTITUCIONAL</h3>
+                    <a href="#">Atendimento</a>
+                    <a href="#">Quem somos</a>
+                    <a href="#">Compra segura</a>
+                    <a href="#">Política de privacidade</a>
+                </div>
+                <div class="footer-column">
+                    <h3>PÁGINAS ESPECIAIS</h3>
+                    <a href="#">Meus pedidos</a>
+                    <a href="#">Trocas e devoluções</a>
+                    <a href="#">Entregas</a>
+                    <a href="#">Pagamentos</a>
+                </div>
+                <div class="footer-column">
+                    <h3>EXTRAS</h3>
+                    <a href="#">Frete</a>
+                    <a href="#">Parcelamento</a>
+                    <a href="#">Contate-nos</a>
+                    <a href="#">Localização</a>
+                </div>
+                <div class="footer-column">
+                    <h3>CONTATOS</h3>
+                    <div>
+                        Chat online
+                    </div>
+                    <div>
+                        company@gmail.com
+                    </div>
+                    <div>
+                        (00) 0000-0000
+                    </div>
+                    <div>
+                        Nossa comunidade
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- glider -->
+    <script src="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.js"></script>
+    <!-- Script -->
+    <script src="./js/index.js"></script>
+</body>
+</html>
