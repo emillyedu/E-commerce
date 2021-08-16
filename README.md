@@ -1,6 +1,6 @@
 # E-commerce
 
-E-commerce de vestuário para bebês e crianças feito com HTML, CSS e Javascript.
+E-commerce de vestuário para bebês e crianças responsivo feito com HTML, CSS e Javascript.
 
 
 ## Página inicial
